@@ -1,0 +1,16 @@
+{
+  "name": "ar-trend-report",
+  "version": "1.0.0",
+  "description": "Generate professional accounts receivable trend reports with MoM analysis and visualizations",
+  "main": "scripts/generate_ar_report.py",
+  "scripts": {
+    "test": "python scripts/generate_ar_report.py --input examples/sample_data.csv --output test_report --title 'Test Report'"
+  },
+  "keywords": ["finance", "accounting", "receivable", "report", "trend", "analysis"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/ar-trend-report.git"
+  }
+}
